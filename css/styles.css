@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, header, footer, aside, section {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* --------------------------------------------------------------- */
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 320px;
+  height: 600px;
+  margin: 50px auto;
+  padding: 20px 10px;
+  background: rgb(230, 226, 236);
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px;
+          box-shadow: 2px 2px 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgb(10, 10, 50);
+}
+
+.input {
+  display: block;
+  width: 80%;
+  margin: 0 auto 20px;
+  padding: 3px;
+  font-size: 2rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 4px inset grey;
+          box-shadow: 0 0 4px inset grey;
+}
+.input::-webkit-input-placeholder {
+  font-size: 1.7rem;
+}
+.input::-moz-placeholder {
+  font-size: 1.7rem;
+}
+.input:-ms-input-placeholder {
+  font-size: 1.7rem;
+}
+.input::-ms-input-placeholder {
+  font-size: 1.7rem;
+}
+.input::placeholder {
+  font-size: 1.7rem;
+}
+
+.currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  padding: 0 50px;
+  margin: 0 auto 50px;
+}
+
+.button {
+  width: 90%;
+  font-size: 1.2rem;
+  padding: 3px 5px;
+  margin: 0 auto 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2.5px 2.5px 0px gray;
+          box-shadow: 2.5px 2.5px 0px gray;
+}
+.button:hover {
+  background-color: #e0dede;
+}
+.button:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 0.5px 0.5px 0px gray;
+          box-shadow: 0.5px 0.5px 0px gray;
+}
+
+.result {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(100, 10, 50);
+}/*# sourceMappingURL=styles.css.map */
